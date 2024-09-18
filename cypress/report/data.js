@@ -1,0 +1,1 @@
+var testData = [{"props":{"name":"Categories","tests":2},"tests":[{"props":{"name":"Validacao categoria Shoes","time":4.427},"snapshots":[]},{"props":{"name":"Validacao categoria Clothes","time":2.839},"snapshots":[]}]},{"props":{"name":"List Products","tests":1},"tests":[{"props":{"name":"should search product","time":3.909},"snapshots":[]}]}]

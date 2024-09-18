@@ -11,11 +11,12 @@ describe('Categories', () => {
     })
 
     categories.forEach(category => {
-        it(`Validação categoria ${category.name}`, () => {
+        it(`Validacao categoria ${category.name}`, () => {
             homePage.openSearchProduct()
             homePage.openCategoriesFilter()
             homePage.categories().should('contain.text', category.name)
+
+            cy.compareSnapshot(Cypress.currentTest.title, 1)
         });
     })
-
 })

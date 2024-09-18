@@ -1,7 +1,7 @@
 {
-  "name": "cy-reports",
+  "name": "cy-lens",
   "version": "1.0.0",
-  "description": "Cypress Reports",
+  "description": "Cypress Reports com lens",
   "main": "index.js",
   "scripts": {
     "test": "npx cypress run",
