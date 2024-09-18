@@ -7,6 +7,8 @@ module.exports = defineConfig({
     baseUrl: 'http://lojaebac.ebaconline.art.br/',
     setupNodeEvents(on, config) {
 
+      require('cypress-html-reporter/GenerateReport')(on, config)
+
       on('before:browser:launch', (browser = {}, launchOptions) => {
         if (browser.name === 'chrome') {
           const debuggingPort = launchOptions.args.find(
@@ -28,4 +30,9 @@ module.exports = defineConfig({
       ebacStoreVersion: "v1"
     }
   },
+  // reporter: 'mochawesome',
+  // reporterOptions: {
+  //   reportFilename: "[name]-result",
+  //   html: false
+  // }
 });

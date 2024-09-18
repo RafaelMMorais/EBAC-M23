@@ -1,0 +1,238 @@
+{
+  "browserName": "electron",
+  "browserPath": "",
+  "browserVersion": "114.0.5735.289",
+  "config": {
+    "baseUrl": "http://lojaebac.ebaconline.art.br/",
+    "env": {
+      "ebacStoreVersion": "v2"
+    },
+    "projectRoot": "C:\\repositorio\\EBAC-Aula-Mod23",
+    "projectName": "EBAC-Aula-Mod23",
+    "configFile": "cypress.config.js",
+    "isTextTerminal": true,
+    "animationDistanceThreshold": 5,
+    "arch": "x64",
+    "blockHosts": null,
+    "chromeWebSecurity": true,
+    "clientCertificates": [],
+    "defaultCommandTimeout": 4000,
+    "downloadsFolder": "C:\\repositorio\\EBAC-Aula-Mod23\\cypress\\downloads",
+    "execTimeout": 60000,
+    "experimentalCspAllowList": false,
+    "experimentalFetchPolyfill": false,
+    "experimentalInteractiveRunEvents": false,
+    "experimentalRunAllSpecs": false,
+    "experimentalMemoryManagement": false,
+    "experimentalModifyObstructiveThirdPartyCode": false,
+    "experimentalSkipDomainInjection": null,
+    "experimentalOriginDependencies": false,
+    "experimentalSourceRewriting": false,
+    "experimentalSingleTabRunMode": false,
+    "experimentalStudio": false,
+    "experimentalWebKitSupport": false,
+    "fileServerFolder": "C:\\repositorio\\EBAC-Aula-Mod23",
+    "fixturesFolder": "C:\\repositorio\\EBAC-Aula-Mod23\\cypress\\fixtures",
+    "excludeSpecPattern": "*.hot-update.js",
+    "includeShadowDom": false,
+    "keystrokeDelay": 0,
+    "modifyObstructiveCode": true,
+    "numTestsKeptInMemory": 0,
+    "platform": "win32",
+    "pageLoadTimeout": 60000,
+    "port": 51431,
+    "projectId": null,
+    "redirectionLimit": 20,
+    "reporter": "spec",
+    "reporterOptions": null,
+    "requestTimeout": 5000,
+    "resolvedNodePath": "C:\\Program Files\\nodejs\\node.exe",
+    "resolvedNodeVersion": "20.16.0",
+    "responseTimeout": 30000,
+    "retries": {
+      "runMode": 0,
+      "openMode": 0
+    },
+    "screenshotOnRunFailure": true,
+    "screenshotsFolder": "C:\\repositorio\\EBAC-Aula-Mod23\\cypress\\screenshots",
+    "slowTestThreshold": 10000,
+    "scrollBehavior": "top",
+    "supportFile": "C:\\repositorio\\EBAC-Aula-Mod23\\cypress\\support\\e2e.js",
+    "taskTimeout": 60000,
+    "testIsolation": true,
+    "trashAssetsBeforeRuns": true,
+    "userAgent": null,
+    "video": false,
+    "videoCompression": false,
+    "videosFolder": "C:\\repositorio\\EBAC-Aula-Mod23\\cypress\\videos",
+    "viewportHeight": 660,
+    "viewportWidth": 1000,
+    "waitForAnimations": true,
+    "watchForFileChanges": false,
+    "specPattern": "cypress/e2e/**/*.cy.{js,jsx,ts,tsx}",
+    "browsers": [
+      {
+        "channel": "stable",
+        "displayName": "Chrome",
+        "family": "chromium",
+        "majorVersion": "128",
+        "name": "chrome",
+        "path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "version": "128.0.6613.139"
+      },
+      {
+        "channel": "stable",
+        "displayName": "Edge",
+        "family": "chromium",
+        "majorVersion": "128",
+        "name": "edge",
+        "path": "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe",
+        "version": "128.0.2739.79"
+      },
+      {
+        "channel": "stable",
+        "displayName": "Electron",
+        "family": "chromium",
+        "majorVersion": 114,
+        "name": "electron",
+        "path": "",
+        "version": "114.0.5735.289"
+      }
+    ],
+    "cypressBinaryRoot": "C:\\Users\\rafae\\AppData\\Local\\Cypress\\Cache\\13.6.4\\Cypress\\resources\\app",
+    "hosts": null,
+    "isInteractive": true,
+    "version": "13.6.4",
+    "testingType": "e2e",
+    "browser": null,
+    "cypressInternalEnv": "production"
+  },
+  "cypressVersion": "13.6.4",
+  "endedTestsAt": "2024-09-18T18:20:52.625Z",
+  "osName": "win32",
+  "osVersion": "10.0.19045",
+  "runs": [
+    {
+      "error": null,
+      "reporter": "spec",
+      "reporterStats": {
+        "suites": 1,
+        "tests": 2,
+        "passes": 2,
+        "pending": 0,
+        "failures": 0,
+        "start": "2024-09-18T18:20:41.185Z",
+        "end": "2024-09-18T18:20:47.012Z",
+        "duration": 5827
+      },
+      "screenshots": [],
+      "spec": {
+        "absolute": "C:/repositorio/EBAC-Aula-Mod23/cypress/e2e/categoriesTest.cy.js",
+        "fileExtension": ".js",
+        "fileName": "categoriesTest",
+        "name": "categoriesTest.cy.js",
+        "relative": "cypress\\e2e\\categoriesTest.cy.js"
+      },
+      "stats": {
+        "duration": 5829,
+        "endedAt": "2024-09-18T18:20:47.006Z",
+        "failures": 0,
+        "passes": 2,
+        "pending": 0,
+        "skipped": 0,
+        "startedAt": "2024-09-18T18:20:41.177Z",
+        "suites": 1,
+        "tests": 2
+      },
+      "tests": [
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 3531,
+          "state": "passed",
+          "title": [
+            "Categories",
+            "Validação categoria Shoes"
+          ]
+        },
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 2257,
+          "state": "passed",
+          "title": [
+            "Categories",
+            "Validação categoria Clothes"
+          ]
+        }
+      ],
+      "video": null
+    },
+    {
+      "error": null,
+      "reporter": "spec",
+      "reporterStats": {
+        "suites": 1,
+        "tests": 1,
+        "passes": 1,
+        "pending": 0,
+        "failures": 0,
+        "start": "2024-09-18T18:20:49.227Z",
+        "end": "2024-09-18T18:20:52.630Z",
+        "duration": 3403
+      },
+      "screenshots": [],
+      "spec": {
+        "absolute": "C:/repositorio/EBAC-Aula-Mod23/cypress/e2e/searchListTest.cy.js",
+        "fileExtension": ".js",
+        "fileName": "searchListTest",
+        "name": "searchListTest.cy.js",
+        "relative": "cypress\\e2e\\searchListTest.cy.js"
+      },
+      "stats": {
+        "duration": 3406,
+        "endedAt": "2024-09-18T18:20:52.625Z",
+        "failures": 0,
+        "passes": 1,
+        "pending": 0,
+        "skipped": 0,
+        "startedAt": "2024-09-18T18:20:49.219Z",
+        "suites": 1,
+        "tests": 1
+      },
+      "tests": [
+        {
+          "attempts": [
+            {
+              "state": "passed"
+            }
+          ],
+          "displayError": null,
+          "duration": 3394,
+          "state": "passed",
+          "title": [
+            "List Products",
+            "should search product"
+          ]
+        }
+      ],
+      "video": null
+    }
+  ],
+  "startedTestsAt": "2024-09-18T18:20:41.177Z",
+  "totalDuration": 9235,
+  "totalFailed": 0,
+  "totalPassed": 3,
+  "totalPending": 0,
+  "totalSkipped": 0,
+  "totalSuites": 2,
+  "totalTests": 3
+}
