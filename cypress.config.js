@@ -1,5 +1,6 @@
 const { defineConfig } = require("cypress");
 const { tabNavigation, setDebuggingPort } = require("./cypress/support/utils/tabNavigation");
+require('dotenv').config()
 
 module.exports = defineConfig({
   e2e: {
@@ -21,5 +22,10 @@ module.exports = defineConfig({
       });
 
     },
+    env: {
+      // MY_ENV: "dev",
+      MY_ENV: process.env.MY_ENV,
+      ebacStoreVersion: "v1"
+    }
   },
 });
